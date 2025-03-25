@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swamy Medics - Future of Healthcare</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo.svg" alt="Swamy Medics Logo">
+                </a>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for medicines, health products and more">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="cart.html" class="cart-icon"><i class="fas fa-shopping-cart"></i> <span id="cart-count">0</span></a></li>
+                    <li><a href="upload-prescription.html" class="btn-primary">Upload Prescription</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Your Futuristic Pharmacy</h1>
+            <p>Discover the future of healthcare with cutting-edge medicines and expert advice.</p>
+            <div class="search-container">
+                <input type="text" placeholder="Search for medicines, health products and more">
+                <button type="submit">Search</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories">
+        <div class="container">
+            <h2>Explore Health Frontiers</h2>
+            <div class="category-grid">
+                <a href="category.html?id=nano-medicine" class="category-card">
+                    <div class="category-img">
+                        <img src="images\1.jpeg" alt="Nano Medicine">
+                    </div>
+                    <h3>Nano Medicine</h3>
+                </a>
+                <a href="category.html?id=gene-therapy" class="category-card">
+                    <div class="category-img">
+                        <img src="images\images.jpeg" alt="Gene Therapy">
+                    </div>
+                    <h3>Gene Therapy</h3>
+                </a>
+                <a href="category.html?id=bionic" class="category-card">
+                    <div class="category-img">
+                        <img src="images\images (3).jpeg" alt="Bionic Enhancements">
+                    </div>
+                    <h3>Bionic Enhancements</h3>
+                </a>
+                <a href="category.html?id=neural" class="category-card">
+                    <div class="category-img">
+                        <img src="images\images (7).jpeg" alt="Neural Implants">
+                    </div>
+                    <h3>Neural Implants</h3>
+                </a>
+                <a href="category.html?id=cryogenics" class="category-card">
+                    <div class="category-img">
+                        <img src="images\images (9).jpeg" alt="Cryogenics">
+                    </div>
+                    <h3>Cryogenics</h3>
+                </a>
+                <a href="category.html?id=anti-aging" class="category-card">
+                    <div class="category-img">
+                        <img src="images\images (12).jpeg" alt="Anti-Aging">
+                    </div>
+                    <h3>Anti-Aging</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products">
+        <div class="container">
+            <h2>Trending Innovations</h2>
+            <div class="product-grid" id="featured-products">
+                <!-- Products will be loaded dynamically via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Health Concerns Section -->
+    <section class="health-concerns">
+        <div class="container">
+            <h2>Optimize Your Wellbeing</h2>
+            <div class="concerns-grid">
+                <a href="concern.html?id=dna-repair" class="concern-item">
+                    <div class="concern-img">
+                        <img src="images\images (15).jpeg" alt="DNA Repair">
+                    </div>
+                    <span>DNA Repair</span>
+                </a>
+                <a href="concern.html?id=brain-optimization" class="concern-item">
+                    <div class="concern-img">
+                        <img src="images\images (20).jpeg" alt="Brain Optimization">
+                    </div>
+                    <span>Brain Optimization</span>
+                </a>
+                <a href="concern.html?id=organ-regeneration" class="concern-item">
+                    <div class="concern-img">
+                        <img src="images\360_F_1259456120_eonaMmm9zy9GmqZar9hIftm5oh8aeYpH.jpg" alt="Organ Regeneration">
+                    </div>
+                    <span>Organ Regeneration</span>
+                </a>
+                <a href="concern.html?id=longevity" class="concern-item">
+                    <div class="concern-img">
+                        <img src="images\medicine.png" alt="Longevity">
+                    </div>
+                    <span>Longevity</span>
+                </a>
+                <a href="concern.html?id=immunity" class="concern-item">
+                    <div class="concern-img">
+                        <img src="images\Protein Supplement Banner 2.png" alt="Immunity 2.0">
+                    </div>
+                    <span>Immunity 2.0</span>
+                </a>
+                <a href="concern.html?id=bionic-integration" class="concern-item">
+                    <div class="concern-img">
+                        <img src="images\WhatsApp Image 2025-03-25 at 10.39.57 PM.jpeg" alt="Bionic Integration">
+                    </div>
+                    <span>Bionic Integration</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="careers.html">Careers</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="press.html">Press</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Our Services</h3>
+                    <ul>
+                        <li><a href="medicines.html">Order Medicines</a></li>
+                        <li><a href="healthcare.html">Healthcare Products</a></li>
+                        <li><a href="lab-tests.html">Lab Tests</a></li>
+                        <li><a href="ask-doctor.html">Ask a Doctor</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Connect with Us</h3>
+                    <ul>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="terms.html">Terms of Use</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Download Our App</h3>
+                    <div class="app-links">
+                        <a href="#"><img src="images\1nk7llb8jvgutneq9t37e05jij-8e5fd44349ceaa97c01e7f37a763f132.png" alt="Download on App Store"></a>
+                        <a href="#"><img src="images\[CITYPNG.COM]FREE Google Play PlayStore Logo PNG - 2000x2000.png" alt="Get it on Google Play"></a>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Swamy Medics. Pioneering the future of health.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/home.js"></script>
+</body>
+</html>

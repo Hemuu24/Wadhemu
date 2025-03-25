@@ -1,0 +1,116 @@
+{
+    "products": [
+      {
+        "id": "1",
+        "name": "Quantum Healing Capsules",
+        "price": 2999,
+        "discountPrice": 2499,
+        "image": "images/placeholder.jpg",
+        "category": "nano-medicine",
+        "description": "Advanced nano-technology capsules that target cellular repair at the quantum level.",
+        "stock": 150,
+        "sold": 75
+      },
+      {
+        "id": "2",
+        "name": "Neuro-Enhancer Chip",
+        "price": 12999,
+        "discountPrice": 9999,
+        "image": "images/placeholder.jpg",
+        "category": "neural",
+        "description": "Cutting-edge neural interface chip that enhances cognitive functions and memory.",
+        "stock": 50,
+        "sold": 30
+      },
+      {
+        "id": "3",
+        "name": "Nano-Bot Immunity Boosters",
+        "price": 4999,
+        "image": "images/placeholder.jpg",
+        "category": "nano-medicine",
+        "description": "Microscopic robots that patrol your bloodstream, eliminating pathogens and boosting immunity.",
+        "stock": 200,
+        "sold": 120
+      },
+      {
+        "id": "4",
+        "name": "Genetic Repair Serum",
+        "price": 3999,
+        "discountPrice": 3499,
+        "image": "images/placeholder.jpg",
+        "category": "gene-therapy",
+        "description": "Advanced serum that repairs damaged DNA and reverses genetic aging markers.",
+        "stock": 100,
+        "sold": 65
+      }
+    ],
+    "categories": [
+      { "id": "nano-medicine", "name": "Nano Medicine", "count": 25 },
+      { "id": "gene-therapy", "name": "Gene Therapy", "count": 18 },
+      { "id": "bionic", "name": "Bionic Enhancements", "count": 12 },
+      { "id": "neural", "name": "Neural Implants", "count": 15 },
+      { "id": "cryogenics", "name": "Cryogenics", "count": 8 },
+      { "id": "anti-aging", "name": "Anti-Aging", "count": 20 }
+    ],
+    "users": [
+      {
+        "id": "admin1",
+        "name": "Admin User",
+        "email": "admin@swamymedics.com",
+        "password": "admin123",
+        "role": "admin",
+        "createdAt": "2023-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "user1",
+        "name": "John Doe",
+        "email": "john@example.com",
+        "password": "password123",
+        "role": "customer",
+        "createdAt": "2023-01-02T00:00:00.000Z"
+      }
+    ],
+    "orders": [
+      { 
+        "id": "ORD001", 
+        "userId": "user1", 
+        "items": [
+          { "productId": "1", "quantity": 2, "price": 2499 },
+          { "productId": "3", "quantity": 1, "price": 4999 }
+        ],
+        "total": 9997,
+        "status": "completed",
+        "date": "2023-06-15T10:30:00.000Z",
+        "address": "123 Main St, City, Country"
+      },
+      { 
+        "id": "ORD002", 
+        "userId": "user1", 
+        "items": [
+          { "productId": "2", "quantity": 1, "price": 9999 }
+        ],
+        "total": 9999,
+        "status": "processing",
+        "date": "2023-06-16T14:20:00.000Z",
+        "address": "123 Main St, City, Country"
+      }
+    ],
+    "prescriptions": [
+      { 
+        "id": "PRE001", 
+        "userId": "user1", 
+        "image": "images/placeholder.jpg", 
+        "status": "verified", 
+        "date": "2023-06-15T09:15:00.000Z",
+        "notes": "Prescription for antibiotics"
+      },
+      { 
+        "id": "PRE002", 
+        "userId": "user1", 
+        "image": "images/placeholder.jpg", 
+        "status": "pending", 
+        "date": "2023-06-16T11:45:00.000Z",
+        "notes": "Monthly medication refill"
+      }
+    ]
+  }
